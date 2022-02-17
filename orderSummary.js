@@ -39,9 +39,9 @@ let t_3 = tellimus.rows[2]
   
 let kaibemaks = (120/100)
 
-let toode1 = "Toote nimi: " + t_1.name + '\n'  + "Hind: " + (t_1.price * kaibemaks) + '\n' + "Kogus: " + t_1.amount + '\n' + "Summa: " + (t_1.price * kaibemaks * t_1.amount)
-let toode2 = "Toote nimi: " + t_2.name + '\n' + "Hind: " + (t_2.price * kaibemaks) + '\n' + "Kogus: " + t_2.amount + '\n' + "Summa: " + (t_2.price * kaibemaks * t_2.amount)
-let toode3 = "Toote nimi: " + t_3.name + '\n' + "Hind: " + (t_3.price * kaibemaks) + '\n' + "Kogus: " + t_3.amount + '\n' + "Summa: " + (t_3.price * kaibemaks * t_3.amount)
+let toode1 = "Toote nimi: " + t_1.name + '\n'  + "Hind: " + t_1.price  + '\n' + "Kogus: " + t_1.amount + '\n' + "Summa: " + (t_1.price * t_1.amount)
+let toode2 = "Toote nimi: " + t_2.name + '\n' + "Hind: " + t_2.price + '\n' + "Kogus: " + t_2.amount + '\n' + "Summa: " + (t_2.price * t_2.amount)
+let toode3 = "Toote nimi: " + t_3.name + '\n' + "Hind: " + t_3.price + '\n' + "Kogus: " + t_3.amount + '\n' + "Summa: " + (t_3.price * t_3.amount)
   
 let summa = (t_1.price * kaibemaks * t_1.amount) + (t_2.price * kaibemaks * t_2.amount) + (t_3.price * kaibemaks * t_3.amount)
 
